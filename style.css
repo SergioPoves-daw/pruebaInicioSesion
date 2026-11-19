@@ -1,0 +1,66 @@
+html {
+    background-color: lightblue;
+}
+
+body {
+    width: 95.7%; /* 957px */
+    margin: 1%; /* 10px respcto a 1000px html */
+    background-color: lightblue;
+}
+
+form {
+    width: 67.92058516196447%; /* 650px width y 957px body (+ 10+10 padding: 750px)*/
+    margin: 2.089864158829676%; /* 20px margin y 957px body */
+    padding: 1.044932079414838%; /* 10px margin y 957px body */
+    background-color: paleturquoise;
+}
+
+label {
+    display: block;
+}
+
+select {
+    padding: 0.7692307692307692%; /* 5px padding y 650px width form */
+    background-color: palegreen;
+    border: solid 1px black;
+}
+
+input[type="submit"] {
+    padding: 0.7692307692307692%; /* 5px padding y 650px width form */
+    background-color: palevioletred;
+    border: solid 1px black;
+}
+
+a {
+    background-color: lightsteelblue;
+    padding: 0.522466039707419%; /* 5px padding y 957px width body */
+    margin: 0.522466039707419%; /* 5px margin y 957px width body */
+    border: solid 1px black;
+}
+
+table {
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: solid 2px black;
+    padding: 10px;
+}
+
+td a {
+    margin: 5px;
+    padding: 5px;
+    border: solid 2px black;
+    background-color: plum;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+th {
+    background-color: palegreen;
+}
+
+td {
+    background-color: paleturquoise;
+}
