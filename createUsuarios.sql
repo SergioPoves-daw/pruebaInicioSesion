@@ -1,0 +1,7 @@
+CREATE TABLE usuarios (
+	idUsuario TINYINT AUTO_INCREMENT PRIMARY KEY,
+	nombre varchar(30) NOT NULL,
+	correo VARCHAR(200) NOT NULL,
+	pw VARCHAR(30) NOT NULL,
+	rol VARCHAR(12) NULL
+);
